@@ -1,7 +1,10 @@
 import React from 'react';
+import Camera from './src/Camera';
+
 function App() {
     return (
-        <><div>{'react setup from scratch without cra testing ts'}</div><div>test</div></>
+        <>            <Camera/>
+        </>
     );
 }
 export default App;
